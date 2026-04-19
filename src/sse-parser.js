@@ -85,9 +85,6 @@ class SSEParser extends EventEmitter {
   }
 }
 
-/**
- * Accumulator khusus DeepSeek (format SSE non‑OpenAI)
- */
 class CompletionAccumulator {
   constructor() {
     this.reset();
