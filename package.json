@@ -1,0 +1,17 @@
+{
+  "name": "deepseek-client",
+  "version": "1.0.0",
+  "description": "DeepSeek Web API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node example.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "form-data": "^4.0.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
