@@ -13,7 +13,7 @@ async function main() {
     baseDelayMs: 1000,
   });
 
-  const loginResult = await client.login('convictsdg+hamel@gmail.com', 'hann12345@');
+  const loginResult = await client.login('-+-@gmail.com', '-'); //temporary-mail.net
   console.log(JSON.stringify({ step: 'login', result: loginResult }, null, 2));
 
   let uploadedFile = null;
